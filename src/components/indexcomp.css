@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.ItemDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10% 10% 10%;
+    padding: 5% 5% 5% 5%;
+    box-shadow: 4px 4px 4px gray;
+    background-color: white;
+}
+.ItemDiv h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-bottom: 4%;
+}
+.ItemDiv img{
+    height: 100%;
+    width: 100%;
+}
+.ItemDiv span{
+    height: 200px;
+    overflow-y: scroll;
+    margin: 5% 5% 5% 5%;
+    text-align: start;
+}
+.ItemDiv a{
+    margin-bottom: 3%;
+    transition: 0.5s;
+}
+.ItemDiv a:hover{
+    font-size: x-large;
+}

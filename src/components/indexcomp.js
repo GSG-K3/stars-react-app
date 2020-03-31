@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-
+import "./indexcomp.css"
 
 class FirstItems extends React.Component{
     state ={
@@ -25,18 +25,18 @@ class FirstItems extends React.Component{
     }
 
     render(){
-       return <div id="Items">
+       return <div>
         {
             this.state.data.map((item)=>{
-                console.log('item  :',item.artists[0].strArtist)
-                return <div>
-                    <h3>{item.artists[0].strArtist}</h3>
-                    <a href={item.artists[0].strWebsite}>{item.artists[0].strWebsite}</a>
-                    <a href={item.artists[0].strFacebook}>{item.artists[0].strFacebook}</a>
+                return <div className="ItemDiv">
+                    <h2>{item.artists[0].strArtist}</h2>
                     <img src={item.artists[0].strArtistFanart} alt="artist img"/>
                     <span>
             <p>{item.artists[0].strBiographyEN}</p>
                     </span>
+                    <a href={item.artists[0].strWebsite}>Website</a>
+                    <a href={item.artists[0].strFacebook}>Facebook</a>
+                    <a href={item.artists[0].strTwitter}>Twitter</a>
                 </div>
             })
         }
