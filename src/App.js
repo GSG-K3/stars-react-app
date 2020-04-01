@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import FirstItems from './components/indexcomp'
+import SearchTask from './components/SearchTask';
 
 function App() {
   return (
@@ -9,10 +9,10 @@ function App() {
       <div>
         <h1>Stars Of Earth</h1>
       </div>
-     <FirstItems />
-    
+      <FirstItems />
+      <SearchTask />
+
     </div>
   );
 }
-
 export default App;
