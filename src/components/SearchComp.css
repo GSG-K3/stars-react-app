@@ -1,13 +1,38 @@
 .SearchDiv {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.SearchDiv input{
+  margin: 3% 3% 3% 3%;
+}
+.SearchResult{
+  display: flex;
+  flex-direction: column;
   margin: 10% 10% 10% 10%;
   padding: 5% 5% 5% 5%;
   box-shadow: 4px 4px 4px gray;
-  background-color: white;
+
 }
 
 .SearchResult img {
   height: 100%;
   width: 100%;
+}
+.SearchResult span{
+  height: 200px;
+  overflow-y: scroll;
+  margin: 5% 5% 5% 5%;
+  text-align: start;
+}
+.btnstyle{
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px royalblue;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.3s;
+}
+.btnstyle:hover{
+  background-color: rgb(128, 159, 250);
+  font-size: large;
 }

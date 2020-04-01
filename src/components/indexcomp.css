@@ -33,3 +33,13 @@ body{
 .ItemDiv a:hover{
     font-size: x-large;
 }
+.btnstyle{
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px royalblue;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.3s;
+}
+.btnstyle:hover{
+    background-color: rgb(128, 159, 250);
+    font-size: x-large;
+}
