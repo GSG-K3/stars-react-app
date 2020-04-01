@@ -28,7 +28,7 @@ body{
 }
 .ItemDiv a{
     margin-bottom: 3%;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .ItemDiv a:hover{
     font-size: x-large;
