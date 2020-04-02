@@ -28,7 +28,7 @@ body{
 }
 .ItemDiv a{
     margin-bottom: 3%;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .ItemDiv a:hover{
     font-size: x-large;
@@ -42,4 +42,10 @@ body{
 .btnstyle:hover{
     background-color: rgb(128, 159, 250);
     font-size: x-large;
+}
+.span{
+    height: 200px;
+    overflow-y: scroll;
+    margin: 5% 5% 5% 5%;
+    text-align: right; 
 }
