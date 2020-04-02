@@ -33,7 +33,7 @@ class SearchTask extends Component {
             onChange={this.onChangeHandler}
             value={this.state.artistName}
           />
-          <button onClick={this.search}>Search</button>
+          <button className="btnstyle" onClick={this.search}>Search</button>
         </div>
 
         <div className="SearchResult">

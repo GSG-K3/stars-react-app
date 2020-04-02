@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <div>
         <h1>Stars Of Earth</h1>
+      <SearchTask />
       </div>
       <FirstItems />
-      <SearchTask />
 
     </div>
   );

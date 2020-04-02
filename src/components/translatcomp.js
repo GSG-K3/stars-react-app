@@ -28,7 +28,7 @@ class Translation extends Component {
 
     render(){
         return <div>
-        <button type="submit" onClick={this.clickHanddeler}>Translate</button>
+        <button className="btnstyle" type="submit" onClick={this.clickHanddeler}>Translate</button>
         <bebo />
         </div>
     }
