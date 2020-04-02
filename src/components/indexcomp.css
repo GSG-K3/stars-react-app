@@ -43,3 +43,9 @@ body{
     background-color: rgb(128, 159, 250);
     font-size: x-large;
 }
+.span{
+    height: 200px;
+    overflow-y: scroll;
+    margin: 5% 5% 5% 5%;
+    text-align: right; 
+}
